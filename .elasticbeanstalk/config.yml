@@ -1,7 +1,10 @@
 branch-defaults:
   main:
-    environment: eb-demo-app-env
-    group_suffix: null
+    environment: eb-app-env
+environment-defaults:
+  eb-demo-app-env:
+    branch: null
+    repository: null
 global:
   application_name: eb-demo-app
   branch: null
